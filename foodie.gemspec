@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "food descriptions"
   spec.description   = "tells about liking level of each food"
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/yashika5/foodie.git"
   spec.license       = "MIT"
   spec.add_development_dependency "rspec", "~> 3.2"
 
