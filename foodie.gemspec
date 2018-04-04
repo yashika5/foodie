@@ -15,6 +15,9 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
   spec.add_development_dependency "rspec", "~> 3.2"
   spec.add_dependency "activesupport", "~> 4.2.0"
+  spec.add_development_dependency "cucumber"
+  spec.add_development_dependency "aruba"
+  spec.add_dependency "thor"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
