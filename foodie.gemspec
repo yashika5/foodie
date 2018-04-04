@@ -14,6 +14,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/yashika5/foodie.git"
   spec.license       = "MIT"
   spec.add_development_dependency "rspec", "~> 3.2"
+  spec.add_dependency "activesupport", "~> 4.2.0"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
